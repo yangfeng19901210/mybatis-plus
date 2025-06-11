@@ -30,7 +30,7 @@ import java.util.function.Function;
  * PostgreSQL DDL 生成器
  *
  * @author hubin
- * @since 2021-06-22
+ * @since 2017-06-22
  */
 public class PostgreDdlGenerator implements IDdlGenerator {
 

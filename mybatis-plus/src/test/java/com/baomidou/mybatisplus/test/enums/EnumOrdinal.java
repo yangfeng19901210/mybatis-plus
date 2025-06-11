@@ -4,7 +4,7 @@ import lombok.Getter;
 
 /**
  * @author miemie
- * @since 2020-07-21
+ * @since 2020-07-17
  */
 @Getter
 public enum EnumOrdinal {

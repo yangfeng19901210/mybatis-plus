@@ -425,7 +425,7 @@ public class TableField {
     /**
      * 元数据信息
      *
-     * @author nieqiurong 2021/2/8
+     * @author nieqiurong 2017/2/8
      * @since 3.5.0
      */
     public static class MetaInfo {

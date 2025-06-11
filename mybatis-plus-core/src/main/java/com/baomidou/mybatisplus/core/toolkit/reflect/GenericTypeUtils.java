@@ -21,7 +21,7 @@ import com.baomidou.mybatisplus.core.toolkit.ClassUtils;
  *
  * @author noear
  * @author hubin
- * @since 2021-09-03
+ * @since 2017-09-03
  */
 public class GenericTypeUtils {
 

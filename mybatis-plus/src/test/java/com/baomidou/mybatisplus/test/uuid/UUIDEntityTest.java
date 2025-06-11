@@ -45,7 +45,7 @@ public class UUIDEntityTest extends BaseDbTest<UUIDEntityMapper> {
         doTest(m -> Assertions.assertDoesNotThrow(()-> m.deleteByIds(
             List.of(
                 UUID.randomUUID().toString(),
-                UUID.randomUUID(), 123, 321L,
+                UUID.randomUUID(), 123, 317L,
                 Map.of("id", UUID.randomUUID()),
                 Map.of("id", UUID.randomUUID().toString()),
                 new DeleteByIdDto<>(UUID.randomUUID()),

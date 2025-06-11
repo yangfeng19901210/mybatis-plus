@@ -28,7 +28,7 @@ public class DBConfig {
     public DataSource dataSource() throws ClassNotFoundException {
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass((Class<? extends Driver>) Class.forName("org.apache.phoenix.jdbc.PhoenixDriver"));
-        dataSource.setUrl("jdbc:phoenix:dnode28,dnode29,dnode30:2181");
+        dataSource.setUrl("jdbc:phoenix:dnode28,dnode29,dnode30:1781");
         Properties properties = new Properties();
         properties.setProperty("schema", "TEST");
         dataSource.setConnectionProperties(properties);

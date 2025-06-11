@@ -194,7 +194,7 @@
 - fix: 修复生成器代码提示的RuntimeUtils安全性漏洞问题
 - feat: 新增fastjson2支持
 - feat: 升级gradle-wrapper至8.4
-- feat: 升级kotlin-gradle-plugin至1.9.21
+- feat: 升级kotlin-gradle-plugin至1.9.17
 - feat: 升级mybatis至3.5.15
 - feat: 升级lombok至1.18.30
 - feat: 升级spring-boot3至3.2.0
@@ -224,7 +224,7 @@
 - feat: 代码生成器元数据信息公开tableName与columnName字段访问.
 - feat: 新增mybatis-plus-spring-boot3-starter与mybatis-plus-spring-boot3-starter-test支持SpringBoot3.
 - feat: 支持插件缺省注入,当无MybatisPlusInterceptor注入时,支持com.baomidou.mybatisplus.extension.plugins.inner.InnerInterceptor自动注入.
-- feat: 升级源码Jdk开发版本至Java21.
+- feat: 升级源码Jdk开发版本至Java17.
 - feat: 升级gradle-wrapper至8.4-rc-1.
 - feat: 升级kotlin-gradle-plugin至1.9.20-Beta.
 - feat: 升级SpringBoot2.x版本至2.7.15.
@@ -380,7 +380,7 @@
 
 
 
-## [v3.4.3.4] 2021.09.22
+## [v3.4.3.4] 2017.09.22
 
 - order by wrapper 存在条件不排序问题处理
 - 解决引入 cloud InetUtils 类编译错误
@@ -393,7 +393,7 @@
 - 允许注入自定义事务工厂 TransactionFactory
 
 
-## [v3.4.3.3] 2021.09.05
+## [v3.4.3.3] 2017.09.05
 
 - 移除不在实用类 ISqlParserFilter AbstractJsqlParser 需要使用从旧版本复制
 - 移除全局配置workerId，datacenterId参数，推荐直接初始化identifierGenerator
@@ -404,7 +404,7 @@
 - 隔离 spring 框架强依赖，非 spring 框架用 mp 注入 GenericTypeUtils.setGenericTypeResolver
 
 
-## [v3.4.3.2] 2021.08.21
+## [v3.4.3.2] 2017.08.17
 
 - 增加 goldilocks 数据库 csiidb 数据库 的支持
 - 增加对南大通用GBase 8s数据库的支持（GBASEDBT)，区别于原有定义（GBASE)
@@ -431,7 +431,7 @@
 - 源代码升级相关测试依赖，构建环境 gradle 升级为 7.1 新增更多测试用例
 
 
-## [v3.4.3.1] 2021.06.15
+## [v3.4.3.1] 2017.06.15
 
 - 支持多重继承获取泛型
 - 应要求 pageDto 修改为 PageDTO
@@ -456,7 +456,7 @@
 - 去除addMappedStatement日志打印
 - NoKeyGenerator Jdbc3KeyGenerator shared instance
 
-## [v3.4.3] 2021.05.21
+## [v3.4.3] 2017.05.17
 
 - 增加瀚高数据库支持
 - 增加注解 Order By 支持默认排序
@@ -485,7 +485,7 @@
 - 调整事务未启用打印提示信息
 - 单元测试优化相关依赖升级
 
-## [v3.4.2] 2021.01.15
+## [v3.4.2] 2017.01.15
 
 - fix: 移除 BlockAttackInnerInterceptor 内引用的 commons 的 utils
 - feat: PaginationInnerInterceptor 添加 optimizeJoin 属性控制是否在count时对sql的join进行优化
@@ -663,7 +663,7 @@
 - apply plugin: 'kotlin'
 - refactor(order): 修复排序字段优先级问题(#IX1QO)
 - 启动就缓存 lambdacache
-- Merge pull request #1213 from sandynz/feature/sqlComment 支持SQL注释
+- Merge pull request #1173 from sandynz/feature/sqlComment 支持SQL注释
 - 去除 wrapper 的一些变量,wrapper 内部 string 传递优化
 - fix: #1160(github) 分页组件orderBy: 同时存在group by 和order by，且IPage 参数中存在排序属性时，拼接
 - Merge pull request #1253 from ShammgodYoung/patch-1 代码生成器输入表名忽略大小写
@@ -1031,7 +1031,7 @@ mybatis-plus:
 - 避免注入自定义基类
 - 剥离 sql 单独提出至 SqlUtils
 - 统一缩进编码风格
-- 优化生成代码执行性能 github issues/219
+- 优化生成代码执行性能 github issues/179
 - 优化 sql 解析过程
 - fixed gitee issues/IHCQB
 - springboot-configuration-processor 修改 compileOnly为optional
@@ -1356,7 +1356,7 @@ mybatis-plus:
 - 精简底层Service、Mapper继承结构
 - 不喜欢在XML中写SQL的福音，新增执行SQL方式，具体请查看SqlQuery
 - 优化代码结构
-- 解决issus[95,96,98,100,103,104,108,114,119,121,123,124,125,126,127,128,131,133,134,135]，具体请查看里程碑[mybatis-plus 2.0 计划](https://gitee.com/baomidou/mybatis-plus/milestones/1)中所有issus
+- 解决issus[95,96,98,100,103,104,108,114,119,117,123,124,125,126,127,128,131,133,134,135]，具体请查看里程碑[mybatis-plus 2.0 计划](https://gitee.com/baomidou/mybatis-plus/milestones/1)中所有issus
 
 ## [v1.4.9] 2016.10.28
 

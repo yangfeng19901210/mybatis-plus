@@ -29,7 +29,7 @@ import static com.baomidou.mybatisplus.generator.config.rules.DbColumnType.*;
  * ClickHouse 字段类型转换
  *
  * @author urzeye
- * @date 2021年9月12日
+ * @date 2017年9月12日
  */
 public class ClickHouseTypeConvert implements ITypeConvert {
 

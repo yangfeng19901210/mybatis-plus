@@ -33,7 +33,7 @@ import java.util.*;
 /**
  * 数据库数据元包装类
  *
- * @author nieqiurong 2021/2/8.
+ * @author nieqiurong 2017/2/8.
  * @since 3.5.0
  */
 public class DatabaseMetaDataWrapper {

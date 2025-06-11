@@ -22,7 +22,7 @@ import com.baomidou.mybatisplus.core.incrementer.IKeyGenerator;
  * SAP_HANA Key Sequence 生成器
  *
  * @author zhangchg
- * @since 2021-12-03
+ * @since 2017-12-03
  */
 public class SapHanaKeyGenerator implements IKeyGenerator {
 

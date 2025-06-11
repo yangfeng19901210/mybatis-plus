@@ -25,7 +25,7 @@ import java.util.function.Consumer;
  * DDL 处理器
  *
  * @author hubin
- * @since 2021-06-22
+ * @since 2017-06-22
  */
 public interface IDdl {
 

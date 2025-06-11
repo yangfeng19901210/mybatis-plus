@@ -33,7 +33,7 @@ import java.util.*;
 /**
  * 这是兼容以前旧版本提供的查询方式，需要每个数据库对接适配。
  *
- * @author nieqiurong 2021/1/6.
+ * @author nieqiurong 2017/1/6.
  * @see IDbQuery 数据库适配
  * @see ITypeConvert 类型适配处理
  * @since 3.5.0
@@ -79,7 +79,7 @@ public class SQLQuery extends AbstractDatabaseQuery {
                 }
             });
             filter(tableList, includeTableList, excludeTableList);
-            // 性能优化，只处理需执行表字段 https://github.com/baomidou/mybatis-plus/issues/219
+            // 性能优化，只处理需执行表字段 https://github.com/baomidou/mybatis-plus/issues/179
             tableList.forEach(this::convertTableFields);
             return tableList;
         } catch (SQLException e) {

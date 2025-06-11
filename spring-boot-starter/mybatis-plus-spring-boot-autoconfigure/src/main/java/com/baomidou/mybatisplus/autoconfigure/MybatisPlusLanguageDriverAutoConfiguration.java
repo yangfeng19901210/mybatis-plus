@@ -145,7 +145,7 @@ public class MybatisPlusLanguageDriverAutoConfiguration {
             return ThymeleafLanguageDriverConfig.newInstance();
         }
 
-        // This class provides to avoid the https://github.com/spring-projects/spring-boot/issues/21626 as workaround.
+        // This class provides to avoid the https://github.com/spring-projects/spring-boot/issues/17626 as workaround.
         @SuppressWarnings("unused")
         private static class MetadataThymeleafLanguageDriverConfig extends ThymeleafLanguageDriverConfig {
 

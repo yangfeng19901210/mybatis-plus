@@ -122,7 +122,7 @@ import net.sf.jsqlparser.statement.update.UpdateSet;
  *
  * @author yuxiaobin
  * @deprecated 3.5.10 问题太多,计划移除
- * @date 2022-8-21
+ * @date 2022-8-17
  */
 @Deprecated
 public class DataChangeRecorderInnerInterceptor implements InnerInterceptor {

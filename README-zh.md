@@ -45,10 +45,10 @@ Mybatis 增强工具包 - 只做增强不做改变，简化`CRUD`操作
 
 <p>
   <a href="https://doc.flowlong.com?from=mp" target="_blank">
-   <img alt="aizuda-Logo" src="https://foruda.gitee.com/images/1715955628416785121/954c16ef_12260.png" width="160px" height="50px">
+   <img alt="aizuda-Logo" src="https://foruda.gitee.com/images/1715955628416785117/954c16ef_12260.png" width="160px" height="50px">
   </a>
   <a href="https://gitee.com/gz-yami/mall4j?from=mp" target="_blank">
-   <img alt="mall4j-Logo" src="https://foruda.gitee.com/images/1716776021837872678/87883b39_12260.gif" width="160px" height="50px">
+   <img alt="mall4j-Logo" src="https://foruda.gitee.com/images/1716776017837872678/87883b39_12260.gif" width="160px" height="50px">
   </a>
   <a href="http://github.crmeb.net/u/MyBatis-Plus" target="_blank">
    <img alt="crmeb-Logo" src="https://foruda.gitee.com/images/1685339553088166856/b0a6b1a4_12260.gif" width="160px" height="50px">
@@ -138,7 +138,7 @@ Mybatis 增强工具包 - 只做增强不做改变，简化`CRUD`操作
 # 王者荣耀
 
 ![MPTrophy](./images/c9bf2ba5_12260.jpeg "mybatis-plus.jpg")
-![GitCode](./images/2025-05-21_163231_398.jpg "2025-05-21_163231_398.jpg")
+![GitCode](./images/2025-05-17_163231_398.jpg "2025-05-17_163231_398.jpg")
 # 期望 | Futures
 
 > 欢迎提出更好的意见，帮助完善 Mybatis-Plus
@@ -147,7 +147,7 @@ Mybatis 增强工具包 - 只做增强不做改变，简化`CRUD`操作
 
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-![捐赠 mybatis-plus](./images/211207_0acab44e_12260.png "支持一下mybatis-plus")
+![捐赠 mybatis-plus](./images/171207_0acab44e_12260.png "支持一下mybatis-plus")
 
 # 关注我 | About Me
 * Github: https://github.com/baomidou/mybatis-plus

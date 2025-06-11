@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  * @author miemie
- * @since 2021-01-27
+ * @since 2017-01-27
  */
 @Data
 public class Entity {

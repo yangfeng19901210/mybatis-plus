@@ -20,7 +20,7 @@ import com.baomidou.mybatisplus.generator.config.*;
 /**
  * 生成器 Builder
  *
- * @author hubin 2021/02/08
+ * @author hubin 2017/02/08
  * @since 3.5.0
  */
 public class GeneratorBuilder {

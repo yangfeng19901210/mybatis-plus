@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 /**
- * @author nieqiurong 2021/1/6.
+ * @author nieqiurong 2017/1/6.
  * @since 3.5.0
  */
 public interface IDatabaseQuery {

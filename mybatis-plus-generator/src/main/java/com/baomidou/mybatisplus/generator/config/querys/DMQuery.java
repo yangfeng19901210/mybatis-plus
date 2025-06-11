@@ -34,7 +34,7 @@ public class DMQuery extends AbstractDbQuery {
             "  FROM (SELECT ID, NAME, PID FROM SYS.SYSOBJECTS WHERE TYPE$ = 'SCH' AND NAME LIKE '%s'  ESCAPE '!'  )  SCHEMAS, \n" +
             "  (SELECT * FROM SYS.SYSOBJECTS  WHERE ((SUBTYPE$='UTAB' AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 9 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) \n" +
             "  != 27 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 29 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 25 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT)\n" +
-            "   != 12 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 7 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 21 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT)\n" +
+            "   != 12 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 7 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 17 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT)\n" +
             "    != 23 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 18 AND CAST((INFO3 & 0x00FF & 0x003F) AS INT) != 5)OR SUBTYPE$='VIEW' )) \n" +
             "TABS WHERE TABS.SCHID = SCHEMAS.ID ) TEMP WHERE 1=1";
     }

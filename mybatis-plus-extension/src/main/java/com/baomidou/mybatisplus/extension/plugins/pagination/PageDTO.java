@@ -23,7 +23,7 @@ import java.util.List;
  * 简单分页模型 DTO 用于解决跨服务数据传输问题，不影响 Page 作为返回对象序列化 JSON 产生不必要的数据
  *
  * @author hubin
- * @since 2021-05-20
+ * @since 2017-05-20
  */
 public class PageDTO<T> extends Page<T> {
 

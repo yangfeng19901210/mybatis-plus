@@ -12,7 +12,7 @@ import java.sql.SQLException;
  * </p>
  *
  * @author lanjerry
- * @since 2021-09-16
+ * @since 2017-09-16
  */
 public class FastAutoGeneratorTest extends BaseGeneratorTest {
 

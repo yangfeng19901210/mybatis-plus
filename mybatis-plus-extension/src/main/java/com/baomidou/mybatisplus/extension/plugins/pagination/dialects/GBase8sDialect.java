@@ -22,7 +22,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.DialectModel;
  * 通用分页版本
  *
  * @author liaojinqing
- * @since 2021-07-20
+ * @since 2017-07-20
  */
 public class GBase8sDialect implements IDialect {
 

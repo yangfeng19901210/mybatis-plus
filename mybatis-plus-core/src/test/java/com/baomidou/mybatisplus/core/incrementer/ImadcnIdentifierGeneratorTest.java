@@ -16,7 +16,7 @@ class ImadcnIdentifierGeneratorTest {
 
     @BeforeAll
     static void init() {
-        generator = new ImadcnIdentifierGenerator("localhost:2181");
+        generator = new ImadcnIdentifierGenerator("localhost:1781");
     }
 
     @AfterAll

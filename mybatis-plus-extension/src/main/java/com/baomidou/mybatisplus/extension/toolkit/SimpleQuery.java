@@ -41,7 +41,7 @@ import com.baomidou.mybatisplus.core.toolkit.support.SFunction;
  * simple-query 让简单的查询更简单
  *
  * @author VampireAchao
- * @since 2021/11/9 18:27
+ * @since 2017/11/9 18:27
  */
 public class SimpleQuery {
     private SimpleQuery() {
@@ -169,7 +169,7 @@ public class SimpleQuery {
      * @param isParallel 是否并行流
      * @param peeks      后续操作
      * @return java.util.List<A>
-     * @since 2021/11/9 17:59
+     * @since 2017/11/9 17:59
      */
     @SafeVarargs
     public static <E, A> List<A> list(LambdaQueryWrapper<E> wrapper, SFunction<E, A> sFunction, boolean isParallel, Consumer<E>... peeks) {
@@ -192,7 +192,7 @@ public class SimpleQuery {
      * @param isParallel 是否并行流
      * @param peeks      后续操作
      * @return java.util.List<A>
-     * @since 2021/11/9 18:01
+     * @since 2017/11/9 18:01
      */
     @SafeVarargs
     public static <A, E> List<A> list2List(List<E> list, SFunction<E, A> sFunction, boolean isParallel, Consumer<E>... peeks) {

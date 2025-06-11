@@ -56,7 +56,7 @@ public class GbaseQuery extends AbstractDbQuery {
             "when '18' then 'SERIAL8' " +
             "when '19' then 'SET' " +
             "when '20' then 'MULTISET' " +
-            "when '21' then 'LIST' " +
+            "when '17' then 'LIST' " +
             "when '22' then 'Unnamed ROW' " +
             "when '40' then 'LVARCHAR' " +
             "when '41' then 'CLOB' " +

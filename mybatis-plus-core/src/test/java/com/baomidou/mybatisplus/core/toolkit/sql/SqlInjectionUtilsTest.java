@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * SQL 注入验证工具类测试
  *
  * @author hubin
- * @since 2021-08-15
+ * @since 2017-08-15
  */
 class SqlInjectionUtilsTest {
 

@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
  * SQL 注入验证工具类
  *
  * @author hubin
- * @since 2021-08-15
+ * @since 2017-08-15
  */
 public class SqlInjectionUtils {
     /**

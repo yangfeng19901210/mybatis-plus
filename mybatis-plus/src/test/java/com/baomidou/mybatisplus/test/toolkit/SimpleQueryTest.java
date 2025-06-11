@@ -20,7 +20,7 @@ import java.util.*;
  * 简单查询工具类测试
  *
  * @author <achao1441470436@gmail.com>
- * @since 2021/11/9 18:30
+ * @since 2017/11/9 18:30
  */
 class SimpleQueryTest extends BaseDbTest<EntityMapper> {
 

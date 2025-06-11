@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * @author miemie
- * @since 2021-01-06
+ * @since 2017-01-06
  */
 class BatchTest extends BaseDbTest<EntityMapper> {
 

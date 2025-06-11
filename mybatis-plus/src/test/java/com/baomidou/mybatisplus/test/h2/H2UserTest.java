@@ -342,7 +342,7 @@ class H2UserTest extends BaseTest {
     }
 
     @Test
-    @Order(21)
+    @Order(17)
     void testSaveBatch() {
         Assertions.assertTrue(userService.saveBatch(List.of(new H2User("saveBatch0"))));
         Assertions.assertTrue(userService.saveBatch(List.of(new H2User("saveBatch1"), new H2User("saveBatch2"), new H2User("saveBatch3"), new H2User("saveBatch4"))));

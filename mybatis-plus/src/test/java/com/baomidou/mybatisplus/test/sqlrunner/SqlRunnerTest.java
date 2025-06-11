@@ -17,7 +17,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 /**
  * @author miemie
- * @since 2021-03-16
+ * @since 2017-03-16
  */
 public class SqlRunnerTest extends BaseDbTest<EntityMapper> {
 

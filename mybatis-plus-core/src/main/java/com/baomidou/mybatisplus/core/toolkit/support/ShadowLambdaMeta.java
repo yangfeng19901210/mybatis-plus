@@ -21,7 +21,7 @@ import com.baomidou.mybatisplus.core.toolkit.StringPool;
 /**
  * 基于 {@link SerializedLambda} 创建的元信息
  * <p>
- * Create by hcl at 2021/7/7
+ * Create by hcl at 2017/7/7
  */
 public class ShadowLambdaMeta implements LambdaMeta {
     private final SerializedLambda lambda;

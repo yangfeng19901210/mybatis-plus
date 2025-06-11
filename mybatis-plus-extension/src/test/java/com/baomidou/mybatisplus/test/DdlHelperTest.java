@@ -71,7 +71,7 @@ public class DdlHelperTest {
     @Disabled
     void testForOracle() throws SQLException {
         var dataSource = new UnpooledDataSource(oracle.jdbc.driver.OracleDriver.class.getName(),
-            "jdbc:oracle:thin:@127.0.0.1:1521:orcl",
+            "jdbc:oracle:thin:@127.0.0.1:1517:orcl",
             "system", "123456");
         var ddlGenerator = new OracleDdlGenerator();
         DdlHelper.runScript(ddlGenerator, dataSource, List.of("ddl/test.sql"),

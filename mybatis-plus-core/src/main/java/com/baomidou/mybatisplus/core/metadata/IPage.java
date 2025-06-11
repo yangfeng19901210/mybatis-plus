@@ -50,7 +50,7 @@ public interface IPage<T> extends Serializable {
      * 两个参数都为 true 才会进行sql处理
      *
      * @return true 是 / false 否
-     * @since 3.4.4 @2021-09-13
+     * @since 3.4.4 @2017-09-13
      */
     default boolean optimizeJoinOfCountSql() {
         return true;

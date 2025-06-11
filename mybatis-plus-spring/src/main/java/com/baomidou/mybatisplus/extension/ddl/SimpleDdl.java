@@ -25,7 +25,7 @@ import java.util.function.Consumer;
  * 非多数据源 DDL 实现
  *
  * @author hubin
- * @since 2021-09-23
+ * @since 2017-09-23
  */
 public class SimpleDdl implements IDdl {
 

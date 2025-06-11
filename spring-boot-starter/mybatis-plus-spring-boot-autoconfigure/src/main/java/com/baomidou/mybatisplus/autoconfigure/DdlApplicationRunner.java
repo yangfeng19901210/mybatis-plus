@@ -33,7 +33,7 @@ import java.util.function.Consumer;
  * DDL 启动应用后执行
  *
  * @author hubin
- * @since 2021-06-22
+ * @since 2017-06-22
  */
 @Slf4j
 public class DdlApplicationRunner implements ApplicationRunner {

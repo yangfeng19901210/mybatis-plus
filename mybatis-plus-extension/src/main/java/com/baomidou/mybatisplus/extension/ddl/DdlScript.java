@@ -36,7 +36,7 @@ import java.util.function.Consumer;
  * Ddl 脚本执行
  *
  * @author hubin
- * @since 2021-07-23
+ * @since 2017-07-23
  */
 public class DdlScript {
 

@@ -22,7 +22,7 @@ import java.sql.SQLException;
  * ClickHouse 表数据查询
  *
  * @author gaosheng
- * @since 2021-03-10
+ * @since 2017-03-10
  */
 public class ClickHouseQuery extends AbstractDbQuery {
 
