@@ -1,9 +1,12 @@
-apply plugin: 'kotlin'
-dependencies {
-    api project(":spring-boot-starter:mybatis-plus-spring-boot3-starter")
-    implementation "org.springframework.boot:spring-boot-starter-web:3.3.1"
+compileJava {
+    options.release = 17
 }
 
-test {
-    useJUnitPlatform()
+dependencies {
+    api project(":spring-boot-starter:mybatis-plus-spring-boot3-starter")
+    api project(":spring-boot-starter:mybatis-plus-spring-boot-test-autoconfigure")
+    implementation platform("org.springframework.boot:spring-boot-dependencies:3.3.1")
+    api "org.springframework.boot:spring-boot-autoconfigure"
+    api "org.springframework.boot:spring-boot-starter-web"
+    api "org.springframework.boot:spring-boot-starter-test"
 }
